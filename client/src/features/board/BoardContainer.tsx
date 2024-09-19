@@ -98,7 +98,7 @@ export default function BoardContainer() {
           <button
             type="button"
             onClick={togglePopup}
-            className="block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="block rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
           >
             New Entry
           </button>
@@ -162,7 +162,7 @@ export default function BoardContainer() {
           <button
             type="button"
             onClick={handleSubmit}
-            className="bg-indigo-600 text-white px-4 py-2 rounded-md"
+            className="bg-blue-600 text-white px-4 py-2 rounded-md"
           >
             Add Problem
           </button>
